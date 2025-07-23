@@ -5,7 +5,7 @@ public class findRemainder {
         //take two integers input,a and b : a>b,and find the reaminder when a is divided by b.
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("take 1st int : ");
+        System.out.print("take 1st int :");
         int a = sc.nextInt();
 
         System.out.print("take 2nd int: ");
