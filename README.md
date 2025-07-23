@@ -1,38 +1,33 @@
 # Java Learning Project
 
-This repository contains my Java learning exercises and practice programs, organized by topics for easy navigation.
+This repository contains my Java learning exercises and practice programs, organized in sequential order for easy navigation.
 
-## 📁 Project Structure
+## � Programs (Sequential Order)
 
-### [01-basics/](./01-basics/)
-Basic Java program structure and syntax
-- `basic_01.java` - Basic Java program structure
-- `PrintingNumbers_02.java` - Number printing exercises
+### Basics
+- `01_basic.java` - Basic Java program structure and Hello World
+- `02_PrintingNumbers.java` - Number printing exercises and output formatting
 
-### [02-variables-and-datatypes/](./02-variables-and-datatypes/)
-Variable declarations and data types
-- `variableint_03.java` - Integer variable examples
-- `doubleDatatype_07.java` - Double data type examples
-- `MultipleVariable.java` - Multiple variable handling
+### Variables and Data Types
+- `03_variableint.java` - Integer variable examples and usage
+- `04_doubleDatatype.java` - Double data type examples and operations
+- `05_MultipleVariable.java` - Working with multiple variables
 
-### [03-operators/](./03-operators/)
-Various operators and their usage
-- `arithmetic_04.java` - Arithmetic operations
-- `IncrementDecrement_05.java` - Increment/decrement operators
-- `07_IncrementDecrement.java` - Advanced increment/decrement
+### Operators
+- `06_arithmetic.java` - Basic arithmetic operations (+, -, *, /)
+- `07_IncrementDecrement.java` - Increment and decrement operators (++, --)
+- `08_AdvancedIncrementDecrement.java` - Advanced increment/decrement examples
 
-### [04-mathematical-calculations/](./04-mathematical-calculations/)
-Mathematical formulas and real-world calculations
-- `Sumof2_06.java` - Sum of two numbers
-- `double_arithemtic_08.java` - Double arithmetic operations
-- `Percentageof5sub_09.java` - Percentage calculations
-- `areaofAcircle_10.java` - Circle area calculation
-- `volumeofAsphere_11.java` - Sphere volume calculation
-- `simpleinterest_12.java` - Simple interest calculation
+### Mathematical Calculations
+- `09_Sumof2.java` - Sum of two numbers
+- `10_double_arithemtic.java` - Arithmetic operations with double values
+- `11_Percentageof5sub.java` - Percentage calculations for 5 subjects
+- `12_areaofAcircle.java` - Calculate area of a circle using π
+- `13_volumeofAsphere.java` - Calculate volume of a sphere
+- `14_simpleinterest.java` - Simple interest calculation formula
 
-### [05-user-input/](./05-user-input/)
-User input handling and interactive programs
-- `javainput/areaCirclewithInput.java` - Circle area with user input
+### User Input
+- `15_areaCirclewithInput.java` - Circle area calculation with user input using Scanner
 
 ## How to Run
 
