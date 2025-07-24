@@ -6,5 +6,14 @@ public class chardatatype {
 
         char ch = 'a';
         System.out.println(ch);
+
+        //typecast
+        int x = (int)ch;
+        System.out.println(x);
+        // this all are charachter but individually
+        //a to z
+        //A to Z
+        //0 to 9
+        // ! @ # $ % ^ & * ( ) _ + = <,.>?/""'':;{} [] 
     }
 }
