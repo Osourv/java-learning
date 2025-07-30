@@ -7,11 +7,11 @@ public class EvenOdd {
         System.out.print("enter the number:");
         int num = Sc.nextInt();
         
-
-        if(num%2==0){
+        // == ka mtlb equal to , != ka mtlb not equal to.
+        if(num%2==0){  // num even hai
             System.out.println("this is even :" + num);
         }
-        else{
+        else{  // num odd hai
             System.out.println("this is odd : " + num);
         }
 
