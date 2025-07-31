@@ -6,8 +6,7 @@ public class absoluteValue {
 
         int n = sc.nextInt();
         if(n<0){  //if n is less than zero
-
-            n = n * (-1); // (-4)*(-1) = 4 positive interger |-4| = 4 
+                 n = n * (-1); // (-4)*(-1) = 4 positive interger |-4| = 4 ,|3|= 3
         }
             System.out.println("the absolute value is: " +n);
         }

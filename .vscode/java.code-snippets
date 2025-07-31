@@ -1,0 +1,20 @@
+{
+	"Scanner Declaration": {
+		"scope": "java",
+		"prefix": "scan",
+		"body": [
+			"Scanner sc = new Scanner(System.in);"
+		],
+		"description": "Creates a Scanner object for input"
+	},
+	"Scanner with Import": {
+		"scope": "java",
+		"prefix": "scanfull",
+		"body": [
+			"import java.util.Scanner;",
+			"",
+			"Scanner sc = new Scanner(System.in);"
+		],
+		"description": "Creates import statement and Scanner object"
+	}
+}
