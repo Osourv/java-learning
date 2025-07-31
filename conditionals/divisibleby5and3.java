@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class divisibleby5or3 {
+public class divisibleby5and3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
