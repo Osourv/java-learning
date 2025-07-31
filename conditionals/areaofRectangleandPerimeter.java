@@ -16,9 +16,13 @@ public class areaofRectangleandPerimeter {
             System.out.println("area of rectangle is greater than its perimeter: " + area);
 
         }
-        else{    // -> if(perimeter >= area)
-            System.out.println("area of rectangle is smaller than its perimeter: " + perimeter);
+        else if(perimeter>area){    // -> if(perimeter >= area)
+            System.out.println("perimeter of rectangle is greater than its area: " + perimeter);
         }
+        else{
+            System.out.println("both area equal");
+        }
+
 
 
     }
