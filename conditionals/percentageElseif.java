@@ -5,7 +5,7 @@ public class percentageElseif {
         
         System.out.print("enter the percentage: ");
 
-        double n = sc.nextDouble();
+        double n = sc.nextDouble ();
 
         if(n>=90){
             System.out.println("excellent");
