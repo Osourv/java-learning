@@ -9,14 +9,14 @@ public class areaofRectangleandPerimeter {
         System.out.print("enter the breath: ");
         int b = sc.nextInt();
 
-        int area = l*b;
-        int perimeter = 2*(l+b);
+        int area = l*b; //area=16
+        int perimeter = 2*(l+b); //perimeter=16
 
-        if(area>perimeter){
+        if(area>perimeter){  // this condition not fullfil that's why else run either > or =
             System.out.println("area of rectangle is greater than its perimeter: " + area);
 
         }
-        else{
+        else{    // -> if(perimeter >= area)
             System.out.println("area of rectangle is smaller than its perimeter: " + perimeter);
         }
 
