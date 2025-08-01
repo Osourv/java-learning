@@ -21,7 +21,7 @@ public class findGreatest {
             System.out.println("third number is greatest:" +n3);
         }
         else{
-            System.out.println("no result");
+            System.out.println("all are equal");
         }
     }
 
