@@ -11,7 +11,7 @@ public class nestedLargestofThree {
 
         System.out.println("enter 3rd number: ");
         int c = sc.nextInt();
-
+        //a = 3,b = 2, c = 1
         if(a>b){
             if(a>c){
                 System.out.println("a is greatest");
@@ -19,7 +19,8 @@ public class nestedLargestofThree {
             else{
                 System.out.println("c is greatest of them all");
             }
-        }else{
+        }
+        else{
             if(b>c){
                 System.out.println("b is greatest");
             }
@@ -27,6 +28,7 @@ public class nestedLargestofThree {
                System.out.println("c is greatest");
             }
         }
+        
         }
     }
 
