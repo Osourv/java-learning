@@ -12,16 +12,16 @@ public class nestedifElseyoungestofThree {
          System.out.println("age of ajay: ");
         int a = sc.nextInt();
 
-        if(r<s){
-            if(r<a){
+        if(r<s){ //if r<s then if run. r>s then if condition not running and else run ,
+            if(r<a){ // r>a then if not run. nested else run
                 System.out.println("ram is youngest:" +r);
             }
             else{
                 System.out.println("ajay is youngest:" +a);
             }
         }
-        else{
-            if(s<a){
+        else{ //r>s
+            if(s<a){ //s>a the else run
                 System.out.println("shyam is youngest:" +s);
             }
             else{
