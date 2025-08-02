@@ -20,7 +20,13 @@ if "!message!"=="" (
 echo.
 echo Committing changes...
 git commit -m "!message!"
-if !errorlevel! neq 0 (
+if !errorlevel! equ 1 (
+    echo No changes to commit. Working tree is clean.
+    echo.
+    echo Done! No changes were needed.
+    pause
+    exit /b 0
+) else if !errorlevel! neq 0 (
     echo Error: Failed to commit changes.
     pause
     exit /b 1
