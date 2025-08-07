@@ -7,6 +7,8 @@ public class F_printTableofNineteen {
         //     if(i%19==0){
         //         System.out.println(i);
 
+
+        // ye bss 10 times hi chl rha hai
          for(int i=19;i<=190; i+=19){
          System.out.println(i);
         }
