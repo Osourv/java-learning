@@ -1,6 +1,6 @@
 package loops;
 
-public class B_printNumber {
+public class B_printOnetoTen {
     public static void main(String[] args) {
         int i;
         for( i=1; i<=100; i++){
