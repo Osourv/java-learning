@@ -11,6 +11,7 @@ public class N_oddnumber {
             if(i%2==0)continue;
             System.out.println("hello");
             System.out.println(i);
+            //o
             
         }
         
