@@ -11,9 +11,6 @@ public class W_SumaddRevofAnumber {
             int ld=n%10;
             rev= rev*10+ld;
             n/=10;
-            
-            
-
         }
         sum= sum+rev;
         System.out.println("sum+rev : " +sum );
