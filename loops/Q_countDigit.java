@@ -1,3 +1,4 @@
+package loops;
 import java.util.Scanner;
 public class Q_countDigit {
     public static void main(String[] args) {

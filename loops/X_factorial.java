@@ -9,6 +9,7 @@ public class X_factorial {
 
         for(int i=1;i<=n;i++){
             fact*=i;
+            System.out.println(fact);// for print all the factorial. each step 
         }
         System.out.println(fact);
     }

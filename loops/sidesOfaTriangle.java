@@ -1,3 +1,4 @@
+package loops;
 import java.util.Scanner;
 public class sidesOfaTriangle {
     public static void main(String[] args) {
