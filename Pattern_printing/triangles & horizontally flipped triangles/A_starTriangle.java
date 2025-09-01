@@ -10,6 +10,8 @@ public class A_starTriangle {
                 System.out.print("*");
             }
             System.out.println();
+            
+
         }
     }
 }
