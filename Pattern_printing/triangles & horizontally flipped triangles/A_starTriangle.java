@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class H_starTriangle {
+public class A_starTriangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter a number: ");
