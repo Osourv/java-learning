@@ -1,5 +1,10 @@
 @echo off
 setlocal enabledelayedexpansion
+
+REM Set your Git user info for this repository
+git config user.name "Osourv"
+git config user.email "souravvishwas4@gmail.com"
+
 echo Adding all files...
 git add .
 if !errorlevel! neq 0 (
