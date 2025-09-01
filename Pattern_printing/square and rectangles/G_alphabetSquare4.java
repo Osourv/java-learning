@@ -1,16 +1,20 @@
-package Pattern_printing;
 import java.util.Scanner;
-public class F_alphabetSquare3 {
+public class G_alphabetSquare4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter a number: ");
         int n = sc.nextInt();
 
-         for(int i = 1; i<=n; i++){
+        for(int i = 1; i<=n; i++){
             for(int j = 1; j<=n; j++){
+                if(i%2==1)
+                System.out.print((char)(i+96) +" ");
+                else
                 System.out.print((char)(i+64) +" ");
             }
             System.out.println();
         }
     }
 }
+
+

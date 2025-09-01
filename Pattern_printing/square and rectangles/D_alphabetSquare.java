@@ -1,16 +1,16 @@
-package Pattern_printing;
 import java.util.Scanner;
-public class C_numberSquare {
+public class D_alphabetSquare {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter a number: ");
-        int n= sc.nextInt();
+        int n = sc.nextInt();
 
         for(int i=1;i<=n;i++){
             for(int j=1;j<=n;j++){
-            System.out.print(j +" ");
+                System.out.print((char)(j+64)+" ");// important ->isme number ko ascii value mai change kiya hai (typecast)
+            }
+            System.out.println();
         }
-        System.out.println();
+
     }
-}
 }

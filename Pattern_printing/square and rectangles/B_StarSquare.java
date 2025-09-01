@@ -1,4 +1,3 @@
-package Pattern_printing;
 import java.util.Scanner;
 public class B_StarSquare {
     public static void main(String[] args) {
