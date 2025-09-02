@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class H_alphabetTrianglehorFlipped {
+public class H_alphabetTrianglehorFlipped2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
