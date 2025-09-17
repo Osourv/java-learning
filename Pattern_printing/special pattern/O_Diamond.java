@@ -4,6 +4,7 @@ public class O_Diamond {
    public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
+    //this is for pyramid
     int nsp=n-1, nst=1;
 
     for(int i = 1; i<=n; i++){
@@ -18,7 +19,8 @@ public class O_Diamond {
         System.out.println();
 
     }
-    nsp = 1;
+    //this is for below the pyramid
+    nsp  = 1;
     nst = 2*n-3;
 
     for(int i= 1; i<=n; i++){
