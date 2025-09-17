@@ -9,14 +9,14 @@ public class P_Bridge {
         }
         System.out.println();
          int nsp= 1;
-         for(int i=1; i<=n-1;i++){//first triangle stars
+         for(int i=1; i<=n;i++){//first triangle stars
             for(int j= 1; j<=n-i; j++){
                 System.out.print("* ");
             }
             for(int j=1; j<=nsp;j++){//spaces
                 System.out.print("  ");
             }
-                for(int j =1;j<=n-i; j++){// second triangle spaces
+                for(int j =1;j<=n-i; j++){// second triangle stars
                     System.out.print("* ");
                 }
                 nsp+=2;
