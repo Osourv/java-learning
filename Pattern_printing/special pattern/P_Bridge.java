@@ -9,7 +9,7 @@ public class P_Bridge {
         }
         System.out.println();
          int nsp= 1;
-         for(int i=1; i<=n;i++){//first triangle stars
+         for(int i=1; i<=n-1;i++){//first triangle stars
             for(int j= 1; j<=n-i; j++){
                 System.out.print("* ");
             }
@@ -24,6 +24,6 @@ public class P_Bridge {
             }
 
          }
-        }
+        } 
     
      
