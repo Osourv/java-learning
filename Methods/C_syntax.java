@@ -15,18 +15,21 @@ public class C_syntax {
         
 //     }
 // }
+// 
+public static void shravan() {
+    karan();
+    System.out.println("khushi");
+}
 public static void main(String[] args) {
-    sapna();
+    riyanshi();
 }
-public static void sourav() {
-    suraj();
-    System.out.println("samsung");
+public static void karan() {
+    System.out.println("yashika");
 }
-public static void suraj() {
-    System.out.println("hello world!");
-}
-public static void sapna() {
-    System.out.println("powerbank");
-    sourav();
+public static void riyanshi() {
+    karan();
+    shravan();
+    System.out.println("ajay");
+    shravan();
 }
 }
