@@ -11,21 +11,21 @@ public class B_OutputInputArray {
         System.out.print(arr[i] + " ");
     }
 
-//     int [] sourav = new int[7];
-//     //default values -> all array element is 0 
-//     for(int i = 0; i<7 ; i++){
-//         System.out.print(sourav[i]+ " ");
-//     }
+    int [] sourav = new int[7];
+    //default values -> all array element is 0 
+    for(int i = 0; i<7 ; i++){
+        System.out.print(sourav[i]+ " ");
+    }
 
-//     //input
-//     for(int i=0; i<7; i++){
-//         sourav[i] = sc.nextInt();
-//     }
+    //input
+    for(int i=0; i<7; i++){
+        sourav[i] = sc.nextInt();
+    }
 
-//     //print
-//     for(int i=0; i<7; i++){
-//         System.out.print(2*sourav[i]+ " "); 
-//     }
+    //print
+    for(int i=0; i<7; i++){
+        System.out.print(2*sourav[i]+ " "); 
+    }
 
 }
 }
